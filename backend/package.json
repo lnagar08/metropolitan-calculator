@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "nodejs, expressjs and mongoDB backend APIs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnagar08/metropolitan-calculator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mogoDB"
+  ],
+  "author": "Lokesh nagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnagar08/metropolitan-calculator/issues"
+  },
+  "homepage": "https://github.com/lnagar08/metropolitan-calculator#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.11"
+  }
+}
